@@ -28,12 +28,12 @@ tree = etree.parse('../package.xml')
 version = tree.find("version").text
 release = version
 
-html_theme = 'theme'
+html_theme = 'clearpath-sphinx-theme'
 html_theme_path = ["."]
 
 htmlhelp_basename = 'dingo_tutorialsdoc'
 templates_path = ['./templates']
-html_static_path = ['./theme/static']
+html_static_path = ['./clearpath-sphinx-theme/static']
 
 html_sidebars = {
    '**': ['sidebartoc.html', 'sourcelink.html', 'searchbox.html']
