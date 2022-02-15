@@ -1,5 +1,5 @@
-Setting Up Dingo's Network
-===========================
+Setting Up Networking
+======================
 
 Dingo is equipped with a combination Wifi + Bluetooth wireless module. On currently-shipping units, this
 is an `Intel Centrino Advanced-N 6235`__. If this is your first unboxing, ensure that Dingo's wireless

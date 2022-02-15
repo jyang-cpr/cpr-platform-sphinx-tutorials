@@ -1,5 +1,5 @@
 Installing a Jetson Xavier AGX
-==============================
+===============================
 
 Step 1: Open up Dingo
 -----------------------
@@ -121,7 +121,7 @@ Once the process is done, you can click FINISH to close the window.
 
 .. image:: images/Xavier/Software/17.png
 
-Once the OS has been written to the Nano you can follow the instructions in :doc:`Software Setup <software_setup>` to
+Once the OS has been written to the Nano you can follow the instructions in :doc:`Software Setup <Installing>` to
 install Dingo's ROS packages.  Once that is done, continue to step 4:
 
 

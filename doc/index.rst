@@ -1,75 +1,82 @@
-Dingo Tutorials
-======================
+PLATFORM Tutorials
+===================
 
-.. image:: images/dingo_banner.png
-    :alt: Dingo Robot
+.. image:: images/PLATFORM_banner.png
+    :alt: PLATFORM Robot
 
-This package supplies Sphinx-based tutorial content to assist you with setting up and operating your Dingo_
-mobile robot. The tutorials topics are listed in the left column, and presented in the suggested reading order.
+This package supplies Sphinx-based tutorial content to assist you with setting up and operating your PLATFORM_ mobile robot. The tutorials topics are listed in the left column, and presented in the suggested reading order.
 
-.. _Dingo: https://clearpathrobotics.com/dingo-indoor-mobile-robot/
+.. _PLATFORM: https://clearpathrobotics.com/PLATFORM-indoor-mobile-robot/
 
 .. Warning::
-
-  These tutorials assume that you are comfortable working with ROS.  We recommend starting with our
+  These tutorials assume that you are comfortable working with ROS. We recommend starting with our
   `ROS tutorial <./../ros>`_ if you are not familiar with ROS already.
 
-.. Note::
+:doc:`Simulation <Simulating>` is a logical place for most users to start, as this is universally applicable; understanding how to effectively operate PLATFORM in simulation is valuable whether you are in the testing phase with software you intend to ultimately deploy on a real PLATFORM, or you do not have one and are simply exploring the platform's capabilities.
 
-  Dingo is still under active development.  As such these tutorials may be incomplete in certain areas and are subject to change.
-  We apologize for any inconvenience this may cause.
+:doc:`Driving <Driving>` covers how to teleoperate PLATFORM using the remote control, a well as safety procedures for operating the real robot. Anyone working with a physical robot should be familiar with this section.
 
-.. Note::
-
-  Dingo currently runs on ROS Melodic on Ubuntu 18.04 "Bionic".  Other versions of ROS and Ubuntu have not been tested yet.
-
-:doc:`Simulation <simulation>` is a logical place for most users to start, as this is universally applicable;
-understanding how to effectively operate Dingo in simulation is valuable whether you are in the testing
-phase with software you intend to ultimately deploy on a real Dingo, or you do not have one and are
-simply exploring the platform's capabilities.
-
-:doc:`Navigation <navigation>` is a follow-on to what is learned in the simulation tutorial, as navigation and
-map-making may be run in the simulated environment. However, this content is applicable to both the simulator
-and the real platform, if equipped with a laser scanner.
-
-Additional topics coming soon!
-
+:doc:`Navigation <Navigating>` is a follow-on to what is learned in the simulation tutorial, as navigation and map-making may be run in the simulated environment. However, this content is applicable to both the simulator and the real platform, if equipped with a laser scanner.
 
 .. toctree::
-    :titlesonly:
-    :hidden:
-    :caption: Getting Started
+    :maxdepth: 0
+    :caption: PLATFORM Overview
 
-    Overview <self>
-    simulation
-    software_setup
-    navigation
-    controllers
-    network
-    driving
-    human_machine_interface
+    Introduction <self>
+    Details
+    ROSTopics
+    StatusIndicators
+    EnvironmentVariables
 
 .. toctree::
-    :titlesonly:
+    :maxdepth: 0
+    :caption: PLATFORM ROS Packages
+
+    CommonPackages
+    DescriptionPackage
+
+.. toctree::
+    :maxdepth: 0
+    :caption: Setting Up PLATFORM
+
+    Installing
+    Networking
+    PairingController
+    CalibratingCompass
+
+.. toctree::
+    :maxdepth: 0
+    :caption: Using PLATFORM
+
+    Driving
+    Simulating
+    Navigating
+    ExtendingStartup
+    KeepingUpdated
+
+.. toctree::
     :maxdepth: 0
     :caption: Hardware Customization
 
-    computer_installation
-    payloads
-    manipulation
+    CustomComputer
+    Payloads
+    Manipulation
+
+.. toctree::
+    :maxdepth: 0
+    :caption: PLATFORM On Windows
 
 .. toctree::
     :titlesonly:
     :maxdepth: 0
     :caption: NVIDIA Jetson
 
-    jetson_nano
-    jetson_xavier
+    JetsonNano
+    JetsonXavier
 
 .. toctree::
     :titlesonly:
     :hidden:
-    :caption: Dingo Packages
+    :caption: Other
 
-    description
-    additional_sim_worlds
+    AdditionalSimulation

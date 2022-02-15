@@ -1,5 +1,5 @@
-Simulating Dingo
-=================
+Simulating PLATFORM
+====================
 
 .. image:: images/dingo_gazebo_banner.png
   :alt: Dingo gazebo
@@ -149,7 +149,7 @@ follow these steps:
 
 3.  Launch gazebo as described above.
 
-Controls for driving the robot can be found in :doc:`Driving Dingo <driving>`.  See :doc:`Controller Pairing <controllers>`
+Controls for driving the robot can be found in :doc:`Driving Dingo <Driving>`.  See :doc:`Controller Pairing <PairingController>`
 for additional information on how to pair your controller with your computer, or refer to the manufacturer's instructions.
 
 
@@ -172,4 +172,4 @@ Click OK, and you should see laser scan points now visible in the rviz window, r
 
 If you use the interactive markers to drive around, you'll notice that the laser scan points move a little bit
 but generally stay where they are. This is the first step toward map making using :roswiki:`gmapping`, which
-is covered in the next tutorial, :doc:`navigation`.
+is covered in the next tutorial, :doc:`Navigating`.

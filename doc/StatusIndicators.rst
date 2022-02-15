@@ -1,11 +1,11 @@
 Status Indicators
-==========================
+==================
 
 Dingo has four configurable LEDs on the corners of the chassis, as well as a Human-Machine Interface (HMI) panel on the
 rear of the robot.  These lights are used to indicate the robot's status.
 
 HMI Panel
------------
+----------
 
 .. image:: images/hmi.jpg
 
@@ -41,9 +41,8 @@ Icon              Description               LED Colors
   :alt: HMI Wi-Fi
   :width: 128px
 
-
 Corner LEDs
--------------
+------------
 
 The corner LEDs use the following patterns to indicate the robot's status:
 

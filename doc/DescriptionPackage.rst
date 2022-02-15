@@ -1,10 +1,9 @@
-dingo_description Package
-===========================
+Description Package
+====================
 
-The jackal_description package is the URDF robot description for Dingo
+The PLATFORM_description package is the URDF robot description for Dingo
 
 .. _Source: https://github.com/dingo-cpr/dingo
-
 
 Overview
 ---------
@@ -253,7 +252,7 @@ summary of their effects and default values
 Mobile Manipulaton Environment Variables
 -------------------------------------------
 
-The following variables are only supported when the :doc:`mobile manipulation <manipulation>` package is in-use.
+The following variables are only supported when the :doc:`mobile manipulation <Manipulation>` package is in-use.
 
 .. raw:: html
 
