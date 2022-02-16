@@ -1,4 +1,5 @@
-# Tutorial for Dingo
+# cpr-platform-sphinx-tutorials
+Tutorial for CPR Platforms.
 
 ## Setup
     sudo apt-get install texlive-full texlive-xetex texmaker python-pip latexmk
