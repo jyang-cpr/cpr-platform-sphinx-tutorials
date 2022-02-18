@@ -20,7 +20,7 @@ approximations of its dynamics, including wheel slippage, skidding, and inertia.
 
     roslaunch PLATFORM_gazebo PLATFORM_world.launch
 
-You should see the following window appear, or something like it. You can adjust the camera angle by clicking and dragging while holding CTRL, ALT, or the shift key:
+You should see the following window appear, or something like it. You will see a base PLATFORM spawned with no additional sensors.You can adjust the camera angle by clicking and dragging while holding CTRL, ALT, or the shift key:
 
 .. image:: images/PLATFORM_gazebo.png
     :alt: Simulated PLATFORM in the Race World.
